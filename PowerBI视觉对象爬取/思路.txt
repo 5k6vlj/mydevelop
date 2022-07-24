@@ -1,0 +1,28 @@
+以Text Filter为例：
+
+entityid：WA104381309
+
+视觉对象首页：https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals
+
+下载页面：https://store.office.com/addinsinstallpage.aspx?rs=en-US&assetid=WA104381309
+
+pbiviz下载地址：https://store.office.com/powerbiaddin?assetId=WA104381309
+
+pbix下载地址在下载页面里的标签信息：<a id="TrySampleOptionLink" class="trySampleOptionLink" href="https://visuals.azureedge.net/app-store/textFilter.textFilter25A4896A83E0487089E2B90C9AE57C8A.1.2.1.0.pbix">sample report</a>
+
+思路：从首页获取每个视觉对象的名称与id，可以直接得到pbiviz的下载地址，以及下载页面的地址，然后从下载页面的源码中提取pbix的下载链接
+
+
+20220425最新：
+
+视觉对象首页：https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals
+
+首页信息：dataList":[{"entityId":"WA104380756",
+
+下载页面：https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309
+
+pbiviz下载地址：https://visuals.azureedge.net/app-store/textFilter.textFilter25A4896A83E0487089E2B90C9AE57C8A.1.2.1.0.pbiviz
+
+pbix下载地址：https://visuals.azureedge.net/app-store/textFilter.textFilter25A4896A83E0487089E2B90C9AE57C8A.1.2.1.0.pbix
+
+pbix下载地址在下载页面里的标签信息：<a class="CTAbutton downloadSampleButton" name="downloadSampleButton" href="https://visuals.azureedge.net/app-store/textFilter.textFilter25A4896A83E0487089E2B90C9AE57C8A.1.2.1.0.pbix" target="_self" tabindex="0">Download Sample</a>
